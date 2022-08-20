@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&family=Varela&display=swap');
+body{
+	background-color: white;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+nav{
+	font-family: 'Ubuntu', sans-serif;
+	display: flex;
+	background-color: black;
+}
+
+nav ul{
+	list-style: none;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+	color: white;
+}
+
+nav ul li{
+	padding: 0 20px;
+}
+
+nav img{
+	height: 70px;
+	width: 100px;
+	padding: 10px 200px;
+}
+
+.brand{
+	display: flex;
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+
+/*cards-text*/
+.container1{
+	background-color: green;
+}
+.container1-1{
+	font-family: cursive;
+}
+
+/*Cards*/
+.card-container {
+  display: flex;
+}
+
+/* this selector selects all divs inside of .flex-container */
+.card-container div {
+  height: 200px;
+  flex: 1 1 0%;
+}
+.card-container .cardone{
+  padding-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+
+.card-container .cardtwo {
+  background-color: black;
+  color: white;
+}
+.card-container .cardthree{
+  padding-top: 20px;
+  margin-bottom: 30px;
+  background-color: white;
+}
+/*FAQs*/
+
+/*footer*/
+.footer{
+   background-color: black;
+}
+
+.footer1{
+	color: white;
+	display: flex;
+	padding: 50px 200px;
+}
+#email1{
+	margin: 0px 200px;
+}
+.footer2{
+	color: white;
+	display: flex;
+	padding: 50px 200px;
+}
+
+.footer2-2 ul{
+list-style: none;
+margin: 0px 50px;
+}
+
+.footer2-3{
+	margin: 0px 150px;
+}
+
+.flex-container{
+	display: flex;
+}
+
+.flex-container div{
+	background-color: blanchedalmond;
+	height: 80px;
+	color: grey;
+	flex: 1;
+}
+.one p{
+	padding: 30px 200px;
+}
+
+.two ul{
+	list-style-type: none; 
+	display:flex;
+}
+.two ul li{
+	padding: 30px 10px;
+}

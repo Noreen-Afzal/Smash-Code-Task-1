@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML CSS</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+    .mySlides {display:none;}
+    </style>
+</head>
+<body>
+	<main>
+    <nav>
+      
+      	<img src="logo2.png" alt="">
+      
+         
+      	 <ul class="brand">
+      	 	<li>Home</li>
+      	 	<li>Cennik</li>
+      	 	<li>Kontakt</li>
+      	 	<li>FAQs</li>
+            <li>Portfolio</li>
+      	 </ul>
+      
+      </nav>
+
+      <section class="container1">
+      	<div class="container1-1">
+      		<br>
+      		<h1 style="color:black; text-align: center; font-family: cursive; font-size: bolder;">Abonent 2584 Design</h1>
+      		<br>
+      	<p style="color: white; text-align: center; padding: 0px 200px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen.</p>
+      	</div><br><br><br>
+      	<div class="card-container" style="text-align: center; ">
+      		<div style="color: green;">
+      			
+      		</div>
+           <div class="cardone">
+           	<h4 style="color: green;">Basic</h4>
+           	<br>
+      		<ul style="list-style: none;">
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<hr>
+      			<p><b>$9.99</b>/month</p>
+      			<button style="background-color: green;">Choose</button>
+      		</ul>
+           </div>
+           <div class="cardtwo">
+           	<h4 style="color: white; background-color: green;">Pro Most Popular</h4>
+           	<br>
+      		<ul>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<hr>
+      			<p><b>$9.99</b>/month</p>
+      			<button style="background-color: white; color: green;">Choose</button>
+      		</ul>
+           </div>
+           <div class="cardthree">
+           	<h4 style="color: green;">Premium</h4>
+           	<br>
+      		<ul>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<li>some text here</li>
+      			<hr>
+      			<p><b>$9.99</b>/month</p>
+      			<button style="background-color: green;">Choose</button>
+      		</ul>
+           </div>
+           <div style="color: green;">
+      			
+      		</div>
+        </div>
+    
+      </section>
+
+       <section style="background-color: grey;">
+       	<br>
+       	<br>
+      	<h1 style=" text-align: center; font-family: cursive;">Our Works</h1>
+      	<br>
+      	<br>
+      	<!-- Sliders -->
+      	<div style="padding-left: 200px;">
+      	<img class="mySlides" src="a.png" style="width: 75%; height: 500x;">
+        <img class="mySlides" src="b.png" style="width: 75%; height: 500x;">
+        <img class="mySlides" src="c.png" style="width: 75%; height: 500x;">
+        
+        <!--buttons to scroll image-->
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+            showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) {slideIndex = 1}
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+            }
+           x[slideIndex-1].style.display = "block";  
+            }
+        </script>
+        </div>
+      	<br>
+      	<br>
+      	<p style=" text-align: center; font-family: cursive;">See Our More Works</p>
+      	<br>
+      	<br>
+      	<div>
+      	<h1 style=" text-align: center; font-family: cursive;">FAQs</h1>
+      	<br>
+      	<br>
+      	<div>
+      	<form action="/action_page.php" style="color: black; text-align: center;">
+         <label for="fname">First name:</label><br>
+         <input type="text" id="fname" name="fname" value="John"><br>
+         <label for="lname">Last name:</label><br>
+         <input type="text" id="lname" name="lname" value="Doe"><br><br>
+         <input type="submit" value="Submit" style="background-color: black; color: white;">
+         <br>
+         <br>
+      </form> 
+      </div>
+      </div>
+      </section>
+
+       <section>
+      	
+      </section>
+
+  </main>
+  <footer class="footer">
+        <section class="footer1">
+      	         <div>
+      	         	<h3>whatsapp</h3>
+      	         	<p style="color: grey;">+33664730338</p>
+      	         </div>
+      	         <div id="email1">
+      	         	<h3>Email</br></h3>
+      	         	<p style="color: grey;">contact@2584design.com</p>
+      	         </div>
+      	         <div>
+      	         	
+      	         </div>
+        </section>
+        
+        <section class="footer2">
+      	         <div>
+      	         	<h2>2584 Design</h2></br>
+      	         	<p style="color: grey;">Lorem Ipsum is simply dummy text </br>
+      	         	of the printing and typesetting industry.</br>
+      	         	Lorem Ipsum has been the industry's </br>
+      	         	standard.</p></br>
+      	         	<h4>Links</h4>
+      	         </hr>
+      	         </div>
+      	         <div class="footer2-2">
+      	         	
+      	         	<ul>
+      	         		<h3>Useful as</h3></br>
+      	         		<li style="color: grey;">Home</li>
+      	         		<li style="color: grey;">Cennik</li>
+      	         		<li style="color: grey;">Kontakt</li>
+      	         		<li style="color: grey;">FAQs</li>
+      	         		<li style="color: grey;">Portfolio</li>
+      	         	</ul>
+      	         </div>
+      	         <div class="footer2-3">
+      	         	<h3>Email Address</h3></br>
+      	         	<input type="text" name="EmailAddress" placeholder="Email Address">
+      	         </div>
+        </section>
+        <section>
+        	<div class="flex-container">
+            <div class="one"><p>Copyright 2022, All Right Reserved <b style="color: green;">Smash Code</b></p></div>
+            <div class="two">
+            	<ul>
+            		<li>Home</li>
+      	            <li>Cennik</li>
+      	            <li>Kontakt</li>
+      	            <li>FAQs</li>
+      	            <li>Portfolio</li>
+            	</ul>
+            </div>
+            </div>
+        </section>
+  </footer>
+</body>
+</html>
